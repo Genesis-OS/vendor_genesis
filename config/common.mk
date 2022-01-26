@@ -140,6 +140,10 @@ PRODUCT_COPY_FILES += \
     vendor/genesis/config/permissions/org.lineageos.health.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/org.lineageos.health.xml \
     vendor/genesis/config/permissions/org.lineageos.livedisplay.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/org.lineageos.livedisplay.xml
 
+# Repainter integration
+PRODUCT_PACKAGES += \
+    RepainterServicePriv
+
 # rsync
 PRODUCT_PACKAGES += \
     rsync
